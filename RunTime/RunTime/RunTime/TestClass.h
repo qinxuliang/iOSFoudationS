@@ -9,7 +9,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
 @interface TestClass : NSObject
+//{
+//#pragma clang diagnostic push
+//#pragma clang diagnostic ignored "-Wobjc-interface-ivars"
+//    Class pis;
+//#pragma clang diagnostic pop
+//}
+
+@property (nonatomic, strong) NSString* name;
+@property (nonatomic, strong) NSString *desc;
 
 @end
 

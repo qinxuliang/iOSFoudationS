@@ -18,6 +18,7 @@
 		ADDF51CA28BDE6E000C657C1 /* RunTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDF51C928BDE6E000C657C1 /* RunTimeUITests.m */; };
 		ADDF51CC28BDE6E000C657C1 /* RunTimeUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDF51CB28BDE6E000C657C1 /* RunTimeUITestsLaunchTests.m */; };
 		ADDF51E028BDEBD700C657C1 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDF51DF28BDEBD700C657C1 /* TestClass.m */; };
+		ADF5BCFF28C0880D0091BE67 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDF51DF28BDEBD700C657C1 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -283,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF5BCFF28C0880D0091BE67 /* TestClass.m in Sources */,
 				ADDF51C028BDE6E000C657C1 /* RunTimeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

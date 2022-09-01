@@ -6,6 +6,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <objc/runtime.h>
+#import "TestClass.h"
 
 @interface RunTimeTests : XCTestCase
 
@@ -22,7 +24,8 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
+    
+    Ivar name = class_getInstanceVariable([TestClass class],"name");    // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
