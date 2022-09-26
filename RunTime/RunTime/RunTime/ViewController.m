@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "TestClass.h"
+#import "MsgResolver.h"
 #import <objc/runtime.h>
 
 @interface TestClass2:TestClass
@@ -27,7 +28,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self workingWithClassTest];
+//    [self workingWithClassTest];
+    
+    MsgResolver *resolver = [[MsgResolver alloc] init];
+    [resolver performSelector:@selector(callInstanceMethod:) withObject:@"实例方法测试"];
+    [MsgResolver performSelector:@selector(callClassMethod:) withObject:@"类方法测试"];
     // Do any additional setup after loading the view.
 }
 

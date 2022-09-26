@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36BE74A928E19B1300F02614 /* MsgResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BE74A828E19B1300F02614 /* MsgResolver.m */; };
 		ADDF51A528BDE6DE00C657C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDF51A428BDE6DE00C657C1 /* AppDelegate.m */; };
 		ADDF51A828BDE6DE00C657C1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDF51A728BDE6DE00C657C1 /* SceneDelegate.m */; };
 		ADDF51AB28BDE6DE00C657C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDF51AA28BDE6DE00C657C1 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36BE74A728E19B1300F02614 /* MsgResolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgResolver.h; sourceTree = "<group>"; };
+		36BE74A828E19B1300F02614 /* MsgResolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgResolver.m; sourceTree = "<group>"; };
 		ADDF51A028BDE6DE00C657C1 /* RunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDF51A328BDE6DE00C657C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADDF51A428BDE6DE00C657C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36BE74A628E1982B00F02614 /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				36BE74A728E19B1300F02614 /* MsgResolver.h */,
+				36BE74A828E19B1300F02614 /* MsgResolver.m */,
+			);
+			path = "消息转发";
+			sourceTree = "<group>";
+		};
 		ADDF519728BDE6DE00C657C1 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +120,7 @@
 		ADDF51A228BDE6DE00C657C1 /* RunTime */ = {
 			isa = PBXGroup;
 			children = (
+				36BE74A628E1982B00F02614 /* 消息转发 */,
 				ADDF51A328BDE6DE00C657C1 /* AppDelegate.h */,
 				ADDF51A428BDE6DE00C657C1 /* AppDelegate.m */,
 				ADDF51A628BDE6DE00C657C1 /* SceneDelegate.h */,
@@ -277,6 +290,7 @@
 				ADDF51A528BDE6DE00C657C1 /* AppDelegate.m in Sources */,
 				ADDF51B628BDE6E000C657C1 /* main.m in Sources */,
 				ADDF51A828BDE6DE00C657C1 /* SceneDelegate.m in Sources */,
+				36BE74A928E19B1300F02614 /* MsgResolver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
